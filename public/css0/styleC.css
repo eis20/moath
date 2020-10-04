@@ -1,0 +1,16 @@
+.bg-primary {
+    background-color: #fdfeff !important;
+
+ }
+ .navbar-dark .navbar-brand {
+    color: #000;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(4, 4, 4, 0.75);
+}
+.navbar-dark .navbar-nav .nav-link: {
+    color: rgba(4, 4, 4, 0.75);
+}
+a:hover {
+  background-color: #331206;
+}

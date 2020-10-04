@@ -1,0 +1,28 @@
+.text-xs {
+    
+    font-size: 2.7rem;
+}
+.h5, h5 {
+    font-size: 3.25rem;
+}
+.more{
+	 background: #e6e6e6;
+    text-align: center; 
+    width: 200px;
+    height: 30px;
+
+}
+.smore{
+	
+    margin-left: 10px;
+
+}
+.bg-gradient-primary {
+    background-color: #4e73df;
+    background-image: linear-gradient(180deg,#483523 10%,#795546 100%);
+    background-size: cover;
+}
+.small, small {
+    font-size: 133%;
+    font-weight: 400;
+}
