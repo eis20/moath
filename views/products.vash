@@ -1,0 +1,59 @@
+@html.extend('layout', function(model) {
+  @html.block('content', function(model) {
+    <div class="container-fluid">
+              <a href="/addproduct"> <button type="button" class="btn btn-success float-right">
+                  اضافة منتج
+              </button></a>
+          <!-- Page Heading -->
+          <h1 class="h3 mb-2 text-gray-800">المنتجات</h1>
+          
+          <!-- DataTales Example -->
+          <div class="card shadow mb-4">
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                     <th>الرقم  </th>
+                    <th>اسم منتج </th>
+                      <th>تفاصيل منتج</th>
+                      <th scope="col">التحكم</th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                     <th>الرقم  </th>
+                      <th>اسم منتج </th>
+                      <th>تفاصيل منتج</th>
+                      <th scope="col">التحكم</th>
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                @*   @model.products.forEach(function(product){ *@
+                    <tr>
+                      <td>1 </td>
+                      <td>نظرية الفستق</td>
+                      
+                      <td>كتاب لتغيير تطريقة التفكير</td>
+                     
+                       <td>
+                        <a href=""><button class="btn btn-outline-primary">تعديل </button></a> |
+                       <a href=""><button class="btn btn-danger">حذف</button></a>
+                    </td>
+                    </tr>
+                @*   }) *@
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div style="height: 200px"></div>
+
+  })
+})
+
+       
+   
+  
