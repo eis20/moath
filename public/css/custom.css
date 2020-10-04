@@ -1,9 +1,6 @@
-.text-xs {
-    
-    font-size: 2.7rem;
-}
+
 .h5, h5 {
-    font-size: 3.25rem;
+    font-size: 1.25rem;
 }
 .more{
 	 background: #e6e6e6;
@@ -25,4 +22,7 @@
 .small, small {
     font-size: 133%;
     font-weight: 400;
+}
+.text-xs {
+    font-size: 1.7rem;
 }
