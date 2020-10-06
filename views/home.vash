@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>هتف القلوب</title>
+        <link rel="stylesheet" type="text/css" href='css/stylesheet.css'  >
+        <link rel="stylesheet" type="text/css" href='css/bootstrap.css'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/csss.css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" />
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body >
+
+
+        <nav class="navbar navbar-expand-lg navbar-light  " style="height: 100px; background-color:#fff;padding: 0px;">
+            <a class="navbar-brand headerone" style="display: none;" href="#">هتف القلوب</a>
+            <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#sidebar" action="virtical.html" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                <a href="virtical.html"><span class="navbar-toggler-icon "></span></a>
+              
+            </button>
+            
+            <div class="collapse navbar-collapse zindex" id="btnForSmall">
+              <ul class="navbar-nav text" >
+                <li class="nav-item active">
+                  <a class="nav-link" href="#" onclick="myFunction()" style="color: #ad8e6f;"> الصفحة الرئيسية</a>
+                <hr style="display: none;">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #747474;">ديوان هتف القلوب</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link " href="#" style="color: #747474;">المساجلات الشعرية</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="#"style="color: #747474;">الصوتيات</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#"style="color: #747474;">شجرة ذوي مترك</a>
+                </li>
+              </ul>
+              <div class="search displaynone" style="margin-right: 20px;margin-left: 20px;">
+                <input type="text" class="input">
+                <i class="searchBtn fas fa-search fa-lg" style="padding: 17px;"></i>
+              </div>
+              
+                <button class="btnSingin displaynone " type="submit" style="margin-left: 10px;">تسجيل الدخول</button>
+                
+
+                <div class="icon displaynone " style="margin-top:-40px;">
+                    <div class="world">
+                        <i class="fas fa-globe fa-lg" style="padding-left: 20px; padding-top: 13px;" ></i>
+
+                    </div>
+                    <div class="world">
+                        <i class="fas fa-map-marker-alt fa-lg" style="padding-left: 20px; padding-top: 15px;"></i>
+
+                    </div>
+                </div>
+
+            </div>
+            
+                
+          </nav>
+
+            
+                
+          
+          <div class="line"></div>
+
+          <div class="container">
+              <div class="row" >
+                  <img src="img/3333.png" alt="firstImgHome" class="col-lg-12 img-responsive firstImgHome">
+              </div>
+          </div>
+          <div class="lines">
+              <div class = "line2 line22"></div>
+              <div class = "line3 line33"></div>
+              <div class = "line4 line44"></div>
+          </div>
+          <div class="container">
+          <div class="row" >
+            <img class="col-lg-4 col-sm-12 imgSml" src="img/one.PNG" alt="" class = "img-responsive">
+            <img class="col-lg-4 col-sm-6 col-6" src="img/two.PNG" alt="" class = "img-responsive">
+            <img class="col-lg-4 col-sm-6 col-6" src="img/three.PNG" alt="" class = "img-responsive">
+          </div>
+          <div class="lines">
+            <div class = "line2 line22" ></div>
+            <div class = "line3 line33"></div>
+            <div class = "line4 line44"></div>
+        </div>
+          <div class="row betweenImg" >
+            <img class="col-lg-6 col-sm-6 col-6" src="img/four.PNG" alt="" class = "img-responsive">
+            <img class="col-lg-6 col-sm-6 col-6" src="img/five.PNG" alt="" class = "img-responsive">
+            
+
+          </div>
+    </div>
+
+        <footer class="container text-center " >
+            <div class="row backgroundColor fooDisplay">
+                <div class="col-lg-3 col-sm-2 col-2 displaynone" style="padding-top: 4%;" > 
+                    <p>هل تحتاج الى مساعدة ؟</p>
+                    <p> يمكنك الحصول على المساعدة من <br>
+                    خلال وسائل المساعدة المختلفة لنا</p>
+                </div>
+    
+                <div class="col-lg-2 col-sm-2 col-2 displaynone " >
+                    <p><i class="fal fa-exclamation-circle" style="color: aliceblue;"></i>مركز المساعدة 
+                     help.niceonesa.com</p>
+                    <p><i class="fas fa-phone-alt" style="color: aliceblue;"></i>مركز المساعدة<br>
+                     help.niceonesa.com</p>
+                    <p><i class="fas fa-envelope" style="color: aliceblue;"></i>مركز المساعدة<br>
+                     help.niceonesa.com</p>
+
+                </div>
+                <div  class="col-lg-2 col-sm-2 col-2 displaynone">
+                    <h4>هتف القلوب</h4>
+                    <p>الشروط والأحكام</p>
+                    <p> سياسة الاستبدال والاسترجاع</p>
+                    <p>الخصوصية</p>
+
+                </div>
+                <div class="col-lg-2 col-sm-6 col-6 displaynotnone">
+                    <h4>تواصل معنا</h4>
+                    <div style ="margin-top: 5%;"> 
+                        <img src="img/instegram.PNG" class="imgFoo" alt="">
+                        <img src="img/facebook.PNG" class="imgFoo" style ="margin-left: 7%; margin-right: 7%;"alt="">
+                        <img src="img/twiter.PNG" class="imgFoo" alt="">
+
+                    </div>
+                    <div style ="margin-top: 5%;">
+                        <img src="img/in.PNG" class="imgFoo" alt="">
+                        <img src="img/youtube.PNG" class="imgFoo" style ="margin-left: 7%; margin-right: 7%;"alt="">
+                        <img src="img/fourimg.PNG" class="imgFoo"  alt="">
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6 displaynotnone">
+                    <h4>حمل التطبيق</h4>
+                    <div>
+                        <img  src="img/fooone.PNG" alt="" style="padding-top: 2%;" >
+                    </div>
+                    <div>
+                        <img  src="img/footwo.PNG" alt="" style="padding-top: 2%;">
+                    </div>
+
+                </div>
+            </div>
+            <div class="row smlFoo" style="margin-top: 5%; padding-bottom: 3%;" >
+                <div class="col-lg-4 col-sm-12 col-12"  class="smlfoo" >
+                    <img  src="img/foofive.PNG" style="padding-right: 5%;" alt="" class="">
+                    <img  src="img/foofour.PNG" style="padding-right: 5%;" alt="" class="">
+                    <img  src="img/fooThree.PNG" style="padding-right: 5%;" alt="" class="">
+
+                </div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4" style="color: #606060;">
+                    ‎
+                        جميع الحقوق محفوظة لصالح موقع هتف القلوب &copy;2020
+                </div>
+
+            </div>
+        </footer>
+        
+
+        <script src= "js/jquery.js" ></script>
+        <script src=  "js/bootstrap.min.js"></script>
+        <script src= "js/js.js"></script>
+        
+        
+    </body>
+</html>

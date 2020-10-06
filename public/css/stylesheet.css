@@ -1,0 +1,221 @@
+body{
+    text-align: right;
+    direction: rtl;
+}
+nav{
+    padding-right: 0px;
+}
+ul>li:hover{
+    border-bottom: #7d634b 5px solid;
+    border-radius:3px;
+    color: #ad8e6f;
+
+}
+ul>li>a:active {
+    border-bottom: #5e3605 5px solid;
+    border-radius:3px;
+    color: #5e3605;
+}
+
+
+.text{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+}
+.line{
+    width: 100%;
+    height: 4px;
+    background-color: #7c634a;
+}
+.icon{
+    width: 10%;
+    height: 10px;
+    background-color: #fff;
+    display: flex;
+    top: -7px;
+    
+    
+    }
+.world{
+    
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 1;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    margin: 5px;
+    
+
+}
+.fas ,.fal{
+    
+    width: 50px;
+    z-index: 1000;
+    
+    color: #714105;
+}
+.search{
+    position: relative;
+}
+.searchBtn{
+    position: absolute;
+    right: -10px;
+    top: -7px;
+}
+.input{
+    height: 30px;
+    width: 200px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    border: 2px solid #eee;
+    border-radius: 6px;
+    margin-left: 18px;
+}
+.btnSingin{
+    height: 30px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #503b29; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right,#503b29,#705841,#82684e,#9f8264);
+    border: none;
+    color: blanchedalmond;
+    border-radius: 5px;
+}   
+    
+.firstImgHome{
+    
+    margin-top: 3%;
+    
+}
+.betweenImg{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.lines{
+    position: relative;
+    margin: 3%;
+    
+}
+.line2{
+    position: absolute;
+    width: 3%;
+    height: 8px;
+    left: 47%;
+    border-radius: 3px;
+    background-color: #503b29; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right,#503b29,#705841,#82684e,#9f8264);
+    
+}
+.line3{
+    position: absolute;
+    width: 1%;
+    height: 8px;
+    background-color: #503b29; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right,#503b29,#705841,#82684e,#9f8264);
+    left: 50.5%;
+    border-radius: 3px;
+
+}
+.line4{
+    
+    margin-right: 47%;
+    height: 8px;
+    background-color: #503b29; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right,#503b29,#705841,#82684e,#9f8264);
+    width: 1%;
+    border-radius: 3px;
+
+
+}
+.backgroundColor{
+    background-color: #43301f; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to left,#43301f,#5e4833,#755c44,#856b51,#9b7e61,#a48668,#a6886a);
+    padding-top: 4%;
+    color:#faf0e6;
+    font-size: 12px;
+    font-style: normal;
+    height: 250px;
+}
+.imgFoo{
+    margin: 1%;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+
+}
+.smlFoo{
+    text-align: right;
+}
+.borderbutton{
+    border-bottom: #efefef 1px solid;
+    
+
+}
+.borderbuttonItem{
+    border-bottom: #efefef 8px solid;
+}
+
+@media (min-width: 320px) and (max-width: 900px){ 
+    .line22{
+        width: 9%;
+        left: 38%;
+
+    }
+    .line33{
+        width: 3%;
+        left: 50.5%;
+
+    }
+    .line44{
+        width: 3%;
+        margin-right: 40%;
+
+
+    }
+    .smlFoo{
+        width: 100%;
+        text-align: center;
+        margin-left: 25%;
+    }
+    .displaynone{
+        display: none;
+    }
+    .displaynotnone{
+        margin-top: 5%;
+        
+    }
+    .fooDisplay{
+        
+        height: 200px;
+    }
+    .headerone{
+        
+        display: fixed;
+
+    }
+    .zindex{
+        z-index: 1;
+        direction: ltr;
+        background-color: burlywood;
+        text-align: center;
+    }
+    .imgSml{
+        height: 300px;
+    }
+    hr{
+        display: block;
+    }
+}
+@media(width: 768px){
+#ipade1{
+    margin-top: -350px;
+}
+#ipade2{
+    padding-top: 0px;
+}
+#ipade3{
+    padding-top:150px ;
+}
+}
