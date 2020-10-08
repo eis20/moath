@@ -1,0 +1,206 @@
+body{
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+}
+/*start navbar*/
+.bg-light {
+    background-color: #ffffff !important;
+}
+.navbar-light .navbar-brand {
+    color: rgb(179 108 38);
+    font-size: 21px;
+    font-weight: bolder;
+    opacity: .9;
+    transition: all .3s ease-in-out;
+}
+.navbar-light .navbar-brand:hover {
+    color: rgb(179 108 38);
+    opacity: 1;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #cc8e51;
+}
+.navbar-light .navbar-nav .active > .nav-link:after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #cc8e51;
+    display: block;
+}
+.navbar-light .navbar-nav .nav-link ,.navbar-light .navbar-nav .nav-link.disabled{
+    color: #020202bd;
+}
+ .navbar-light .navbar-nav .nav-link:after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #cc8e51;
+     display: block;
+     transition: all .3s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover:after{
+    width: 100%;
+}
+.navbar-light .search-top{
+    height: 30px;
+}
+.navbar-light .btn-search-top{
+    height: 30px;
+    padding: 3px;
+    width: 63px;
+    border: 1px solid #cc8e51;
+}
+.navbar-light .log-in{
+    height: 30px;
+    padding: 0;
+    width: 103px;
+    margin-right: 10px;
+    background-color:#cc8e51 ;
+    outline: none;
+    border: none;
+    opacity: .8;
+    transition: all .3s ease-in-out;
+}
+.navbar-light .log-in:hover{
+    opacity: 1;
+}
+.navbar-light .icon-nav0{
+    font-size: 20px;
+    border: 1px solid #e9e9e9;
+    padding: 5px 7px;
+    border-radius: 50% ;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 3px 9px #dbd9;
+    color:#cc8e51 ;
+}
+.navbar-light .icon-nav1{
+    font-size: 20px;
+    border: 1px solid #e9e9e9;
+    padding: 5px 10px;
+    border-radius: 50% ;
+    box-shadow: 1px 3px 9px #dbd9;
+    color:#cc8e51 ;
+}
+.dropdown-toggle::after {
+    display: none;
+
+}
+@media (max-width: 1000px) {
+    .sm-float-right{
+        width: 50%;
+    }
+}
+.hr-nav{
+    margin-top: 0rem;
+    margin-bottom: -1px;
+}
+/*end navbar*/
+/*start slider header*/
+.slider-header .slider-image1{
+    background-image: url("../img/3333.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.slider-header .slider-image2{
+    background-image: url("../img/3333.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.slider-header .overly-slider-header{
+    width: 100%;
+    height: 100%;
+    background-color: #00000063;
+    position: absolute;
+    left:0;
+    top: 0;
+    z-index: 2;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #cc8e51;
+}
+.carousel-control-prev {
+    left: 0;
+    z-index: 5;
+}
+.carousel-control-next {
+    right: 0;
+    z-index: 5;
+}
+/*end slider header*/
+
+/*start section slider produce*/
+.section-slide-pro{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-slide-pro .carousel-indicators {
+    bottom: -50px;
+
+}
+.section-slide-pro .carousel-indicators .active{
+    background-color: #cc8e51;
+
+}
+.section-slide-pro .carousel-indicators li {
+background-color: black;
+}
+.section-slide-pro img{
+    height: 350px;
+}
+/*end section slider produce*/
+/*start section image-pro*/
+.section-img-pro{
+    padding-bottom: 50px;
+}
+.section-img-pro img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 5px;
+}
+/*end section image-pro*/
+/*start section footer*/
+.section-footer {
+    background-image: url("../img/777.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+.section-footer .down-app{
+    justify-content: left;
+}
+.section-footer h4{
+    margin-bottom: 30px;
+
+}
+.section-footer .down-app:first-child(img)  {
+    margin-bottom: 5px;
+    display: block;
+    position: absolute;
+    left: 0;
+}
+.section-footer .contact-footer  i{
+   font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+.section-end{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section-end .img-rel{
+    display: flex;
+    justify-content: center;
+}
+/*end section footer*/
