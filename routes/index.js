@@ -4,8 +4,12 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('home', { title: 'Express' });
+});
+router.get('/dashboard', function(req, res, next) {
+  res.render('dashboard', { title: 'Express' });
   // res.send('hello')
 });
+
 router.get('/books', function(req, res, next) {
   res.render('books', { title: 'الكتب' });
 });
@@ -46,5 +50,16 @@ router.get('/metrk', function(req, res, next) {
 router.get('/record', function(req, res, next) {
   res.render('record', { title: 'شجرة ذوي مترك ' });
 });
+router.get('/login', function(req, res, next) {
+  res.render('login', { title: 'تسجيل الدخول ' });
+});
 
+router.post('/login', function(req, res, next) {
+  pass = req.body.pass ;
+  if(pass == "123"){
+    res.redirect('dashboard')
+  }else{
+    res.send('كلمة المرور غير صحيحة')
+  }
+});
 module.exports = router;

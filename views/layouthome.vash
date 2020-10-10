@@ -44,7 +44,7 @@
             <form class="form-inline my-2 my-lg-0 text-sm-left d-none d-lg-block">
                 <input class="form-control search-top mr-sm-2" type="search" placeholder="بحث" aria-label="Search">
             </form>
-            <button type="button" class="btn btn-primary log-in">تسجيل دخول</button>
+        <a href="/login"><button type="button" class="btn btn-primary log-in">تسجيل دخول</button></a>
             <ul class="list-unstyled" style="margin-bottom: 0;display: inline-block;padding: 0;">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" style="padding: 0" href="#" id="navbarDropdown" role="button"
