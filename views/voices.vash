@@ -1,0 +1,7 @@
+
+
+@html.extend('layouthome', function(model) {
+  @html.block('content', function(model) {
+<h1>صفحة الصوتيات</h1>
+  })
+  })

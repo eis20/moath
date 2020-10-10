@@ -34,5 +34,17 @@ router.get('/category', function(req, res, next) {
 router.get('/addcategory', function(req, res, next) {
   res.render('addcategory', { title: 'التصنيفات' });
 });
+router.get('/voices', function(req, res, next) {
+  res.render('voices', { title: 'الصوتيات' });
+});
+router.get('/hatf', function(req, res, next) {
+  res.render('hatf', { title: 'هتف القلوب ' });
+});
+router.get('/metrk', function(req, res, next) {
+  res.render('metrk', { title: 'شجرة ذوي مترك ' });
+});
+router.get('/record', function(req, res, next) {
+  res.render('record', { title: 'شجرة ذوي مترك ' });
+});
 
 module.exports = router;

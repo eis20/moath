@@ -1,67 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>هتف القلوب</title>
 
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/main-style.css">
-</head>
-<body>
-<!--start navbar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-        <a class="navbar-brand" href="#">هتف القلوب</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-
-            <ul class="navbar-nav ml-auto ">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">الصفحة الرئيسة <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ديون هتف القلوب</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">المسجلات الشعرية</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">الصوتيات</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">ذوي مترك</a>
-                </li>
-
-            </ul>
-            <form class="form-inline my-2 my-lg-0 text-sm-left d-none d-lg-block">
-                <input class="form-control search-top mr-sm-2" type="search" placeholder="بحث" aria-label="Search">
-            </form>
-            <button type="button" class="btn btn-primary log-in">تسجيل دخول</button>
-            <ul class="list-unstyled" style="margin-bottom: 0;display: inline-block;padding: 0;">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" style="padding: 0" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-globe icon-nav0" aria-hidden="true" style=""></i>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">عربي</a>
-                        <a class="dropdown-item" href="#">انجليزي</a>
-                    </div>
-                </li>
-            </ul>
-            <i class="fa fa-map-marker icon-nav1" aria-hidden="true"></i>
-        </div>
-    </div>
-</nav>
-<hr class="hr-nav">
-<!--end navbar-->
+@html.extend('layouthome', function(model) {
+  @html.block('content', function(model) {
+  
 <!--start section slider header-->
 <div id="carouselExampleControls" class="carousel slider-header slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -182,72 +123,5 @@
     </div>
 </div>
 <!--end section section-img-pro-->
-<!--start footer-->
-<div class="section-footer text-center" style="color: white">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6" style="margin-bottom: 10px">
-                    <h4 class="wow animate__swing" data-wow-offset="100" data-wow-duration="1.5s">هل تحتاج لمساعدة</h4>
-                   <p>يمكنك الحصول على مساعدة من خلال وسائل المساعدة المختلفة لنا.</p>
-            </div>
-
-            <div class="col-md-2 col-sm-6" style="margin-bottom: 10px">
-                <h4 class="wow animate__swing" data-wow-offset="100" data-wow-duration="1.5s">مراكز المساعدة</h4>
-                <p><i class="fa fa-user" style="margin-left: 5px"></i>مركز المساعدة<br>help.niceonce.com </p>
-                <p><i class="fa fa-mail-forward" style="margin-left: 5px"></i>مركز المساعدة<br>help.niceonce.com </p>
-
-            </div>
-            <div class="col-md-3 col-sm-6" style="margin-bottom: 10px">
-                <h4 class="wow animate__swing" data-wow-offset="100" data-wow-duration="1.5s">هتف القلوب</h4>
-               <p><a href="#" style="color: white">الشروط والاحكام</a></p>
-                <p><a href="#" style="color: white">سياسة الاستبدال والاسترجاع</a></p>
-                <p><a href="#" style="color: white">الخصوصية</a></p>
-
-            </div>
-            <div class="col-md-2 col-sm-6 contact-footer" style="margin-bottom: 10px">
-                <h4 class="wow animate__swing" data-wow-offset="100" data-wow-duration="1.5s">تواصل معنا</h4>
-                <div class="row" style="display: flex;justify-content: center">
-                    <i class="fa fa-instagram col-md-3 col-sm-3  social"></i>
-                    <i class="fa fa-facebook-square col-md-3 col-sm-3  social"></i>
-                    <i class="fa fa-telegram col-md-3 col-sm-3  social"></i>
-                </div>
-                <div class="row" style="display: flex;justify-content: center">
-                    <i class="fa fa-twitter col-md-3 col-sm-3  social"></i>
-                    <i class="fa fa-snapchat col-md-3 col-sm-3  social"></i>
-                    <i class="fa fa-skype col-md-3 col-sm-3  social"></i>
-                </div>
-
-
-                </div>
-
-            <div class="col-md-2 col-sm-6 down-app" style="margin-bottom: 10px">
-                <h4 class="wow animate__swing" data-wow-offset="100" data-wow-duration="1.5s">حمل التطبيق</h4>
-                <img src="img/fooone.PNG">
-                <img src="img/footwo.PNG">
-            </div>
-        </div>
-        </div>
-    </div>
-</div>
-<div class="section-end text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 img-rel wow animate__backInRight " data-wow-duration="1s" data-wow-offset="50">
-                <img class="float-right" style="margin-left: 5px" src="img/foofive.PNG">
-                <img class="float-right" style="margin-left: 5px" src="img/foofour.PNG">
-                <img class="float-right" style="margin-left: 5px" src="img/fooThree.PNG">
-            </div>
-            <div class="col-md-6 wow animate__backInLeft" data-wow-duration="1s" data-wow-offset="50">
-                <p>جميع حقوق النشر محفوظة لدى <span style="font-weight: bolder;color: #cc8e51">هتف القلوب</span> @2020</p>
-            </div>
-        </div>
-    </div>
-
-</div>
-<!--end footer-->
-<script src="js/jquery-3.5.1.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script>new WOW().init();</script>
-<script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+  })
+  })

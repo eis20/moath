@@ -1,0 +1,21 @@
+
+
+@html.extend('layouthome', function(model) {
+  @html.block('content', function(model) {
+             <div class="row">
+                    <div class="col-sm-12">
+                        <div class="panel panel-default text-left">
+                            <div class="panel-body">
+                            
+                                <textarea  class="form-control" rows="5" id="body" required ></textarea>
+                                <br>
+                                <button type="submit" id="send" class="btn btn-default btn-lg">
+                                    <span class="glyphicon glyphicon-send"></span> نشر
+                                </button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+  })
+  })
